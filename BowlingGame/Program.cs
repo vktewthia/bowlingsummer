@@ -163,5 +163,10 @@ namespace BowlingGameLib
             }
             return Int16.TryParse(input, out value);
         }
+
+        private void GetPrintStatus(Bowl myBowl)
+        {
+            console.WriteLine(myBowl.ToString());
+        }
     }
 }
